@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		/>
+		<title>Desor Guishny Portfolio</title>
+	</head>
+	<body>
+		<header>
+			<div class="mobile-nav">
+				<ul class="menu-list">
+					<li>
+						<a href="#my-work" class="mb-item font-inter">Portfolio</a>
+					</li>
+					<li>
+						<a href="#about-me" class="mb-item font-inter">About</a>
+					</li>
+					<li>
+						<a href="#contact-me" class="mb-item font-inter">Contact</a>
+					</li>
+				</ul>
+				<div class="btn-close">
+					<nav class="btn-close">
+						<i class="fa-solid fa-xmark"></i>
+					</nav>
+				</div>
+			</div>
+			<div id="nav" class="brand"><a href="#">My Brand</a></div>
+			<nav class="nav-menu">
+				<ul class="nav-container">
+					<li class="nav-item"><a href="#my-work">Portfolio</a></li>
+					<li class="nav-item"><a href="#about-me">About</a></li>
+					<li class="nav-item"><a href="#contact-me">Contact</a></li>
+					<li class="nav-item">
+						<a href="#"><i class="fa fa-envelope"></i></a>
+					</li>
+				</ul>
+				<nav class="nav-button" id="nav-button">
+					<i class="fa-solid fa-bars"></i>
+				</nav>
+			</nav>
+		</header>
+		<section id="headline">
+			<div class="headline">
+				<div class="resume">
+					<h1 class="font-crete">
+						Hey There. <br />
+						<span>I'm Guishny</span>
+					</h1>
+					<h2 class="font-inter h4">I'm a software Developer</h2>
+					<p class="desc">
+						Hello I'm a software developer! I can help you build a product ,
+						feature or website Look through some of my work and experience! If
+						you like what you see and have a project you need coded, don't
+						hestiate to contact me.
+					</p>
+				</div>
+				<div class="social-network">
+					<ul>
+						<li>
+							<a href="#" class="facebook">
+								<i class="fa-brands fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="github">
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="twitter">
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="Instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="linkedin">
+								<i class="fa-brands fa-linkedin"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="my-work" id="my-work">
+			<h2 class="section-title font-crete">My Recents works <span></span></h2>
+			<div class="container cards works grid" id="cards-container">
+			</div>
+		</section>
+		<section class="about-me" id="about-me">
+			<div class="resume">
+				<h2 class="font-crete">About me</h2>
+				<p class="resume-text font-inter">
+					Hello I'm a software developer! I can help you build a product ,
+					feature or website Look through some of my work and experience! If you
+					like what you see and have a project you need coded, don't hestiate to
+					contact me.
+				</p>
+				<button class="get-myresume-btn font-inter">Get my resume</button>
+			</div>
+			<div class="competence">
+				<ul class="competence-list">
+					<li>
+						<h3 class="competence-item list-title languages font-inter">
+							Languages
+						</h3>
+					</li>
+					<li class="competence-item font-inter">Javascript</li>
+					<li class="competence-item font-inter">Ruby</li>
+					<li class="competence-item font-inter">Css</li>
+					<li class="competence-item font-inter">Html</li>
+				</ul>
+				<ul class="competence-list">
+					<li>
+						<h3 class="competence-item font-inter list-title frameworks">
+							Frameworks
+						</h3>
+					</li>
+					<li class="competence-item font-inter">Bootstrap</li>
+					<li class="competence-item font-inter">React</li>
+					<li class="competence-item font-inter">Gatsby</li>
+					<li class="competence-item font-inter">Laravel</li>
+				</ul>
+
+				<ul class="competence-list">
+					<li>
+						<h3 class="competence-item font-inter list-title skills">Skills</h3>
+					</li>
+					<li class="competence-item font-inter">Github</li>
+					<li class="competence-item font-inter">Codepen</li>
+					<li class="competence-item font-inter">Codesandbox</li>
+					<li class="competence-item font-inter">Replit</li>
+				</ul>
+			</div>
+		</section>
+		<section id="contact-me" class="contact-section contact">
+			<div id="form-text" class="form-text">
+				<p class="text font-inter">
+					I'm always interested in hearing about new projects, so if you'd like
+					to chat please get in touch.
+				</p>
+			</div>
+			<form
+				action="https://formspree.io/f/mjvlpdpv"
+				id="form"
+				method="post"
+				class="form"
+			>
+				<ul class="form-container">
+					<li class="item">
+						<ul class="row">
+							<li class="form_item item">
+								<input
+									type="text"
+									id="name"
+									placeholder="Full Name"
+									required
+									maxlength="30"
+									class="font-inter input"
+								/>
+							</li>
+							<li class="form_item item">
+								<input
+									type="email"
+									id="email"
+									required
+									placeholder="Email Address"
+									class="font-inter input"
+								/>
+							</li>
+						</ul>
+					</li>
+					<li class="item">
+						<textarea
+							name="text"
+							id="text"
+							required
+							maxlength="500"
+							placeholder="Enter text here"
+							class="font-inter"
+						></textarea>
+					</li>
+					<li class="item">
+						<button
+							type="submit"
+							class="see-project-btn font-inter frm-btn frm-btn"
+						>
+							Get in Touch
+						</button>
+					</li>
+				</ul>
+			</form>
+		</section>
+		<section class="footer-section">
+			<div class="social-media">
+				<ul class="social-media-container">
+					<li class="item">
+						<a href="#" class="icon facebook">
+							<i class="fa-brands fa-facebook"></i>
+						</a>
+					</li>
+					<li class="item">
+						<a href="#" class="icon github">
+							<i class="fa-brands fa-github"></i>
+						</a>
+					</li>
+					<li class="item">
+						<a href="#" class="icon twitter">
+							<i class="fa-brands fa-twitter"></i>
+						</a>
+					</li>
+					<li class="item">
+						<a href="#" class="icon Instagram">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+					</li>
+					<li class="item">
+						<a href="#" class="icon linkedin">
+							<i class="fa-brands fa-linkedin"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<script src="custom.js"></script>
+	</body>
+</html>
