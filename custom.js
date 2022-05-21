@@ -109,7 +109,7 @@ for (let i = 0; i < WorkData.length; i += 1) {
     listContainer.appendChild(listItem);
   });
 
-  workssection.appendChild(cardDiv);
+  workssection.appendChild(cardDivs);
   cardContent.innerHTML += `
     <button class="see-project-btn seeMore font-inter">See Project</button>`;
 }
