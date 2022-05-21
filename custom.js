@@ -94,7 +94,7 @@ for (let i = 0; i < WorkData.length; i += 1) {
   cardContent.className = 'card-content';
   cardDiv.appendChild(cardContent);
   cardContent.innerHTML = `
-              <h3 class="work-title">${WorkData[i].name}</h3>
+              <h3 class="work-title">${WorkData[].name}</h3>
               <p class="work-description font-inter">
                   ${WorkData[i].description}
               </p>
@@ -164,7 +164,7 @@ button.forEach((element, index) => {
             </div>
           </div>
     `;
-    const close = document.querySelector('#close-popup');
+    const close = document.querySelector('#close');
     close.addEventListener('click', () => {
       popup.classList.remove('popup-active');
       popup.remove();
